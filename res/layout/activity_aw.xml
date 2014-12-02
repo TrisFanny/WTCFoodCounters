@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fanny.wtcfoodcounters.AwActivity" >
+
+    
+<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A W" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/a1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waralaba untuk restoran A W itu sendiri yang dikelola oleh perusahaan Yum! brands. Restoran A W pertama kali berdiri di Indonesia pada tahun 1985. dan hingga saat ini restoran A W tersebut telah memiliki cabang hingga 207 gerai yang ada di beberapa kota besar di seluruh indonesia dan Restoran A W yang merupakan lisensi waralaba di Indonesia di pegang oleh perusahaan PT. Biru Fast Food Nusantara\n
+                Beberapa Menu A W Indonesia" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A W Jambi berlokasi di WTC Batanghari\n
+                Lantai Dasar" />
+             </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

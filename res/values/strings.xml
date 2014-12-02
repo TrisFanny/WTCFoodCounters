@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTCFoodCounters</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aw">AwActivity</string>
+    <string name="title_activity_iga">IgaActivity</string>
+    <string name="title_activity_bakmi">BakmiActivity</string>
+
+</resources>

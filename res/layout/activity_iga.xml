@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fanny.wtcfoodcounters.IgaActivity" >
+
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dapur Iga" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/a5" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dapur Iga adalah sebuah restoran serta cafe yagn berasal dari Kota Bandung, Jawa Barat\n
+                Dapur Iga menyajikan berbagai masakan iga sapi dengan cita rasa yang berbeda sejak tahun 2009. Mengangkat masakan khas nusantara seperti saus Woku dan Tuturuga dari Manado, saus Ndeso yang berasal dari Jawa, Saus Padang yang pedas dari Sumatera, khas barat seperti Barbeque, Tom Yam, dan Blackpepper, hingga khas racikan Dapur Iga seperti Saus Leci yang memadukan gurih dan manis.\n
+                Beberapa Menu Dapur Iga​" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/menu2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dapur Iga Jambi berlokasi di WTC Batanghari Jambi.\n
+                Lantai 2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
